@@ -12,8 +12,8 @@ def lambert(x):
   return l
 
 a = float(sys.argv[1])
-if  < -exp(-1):
+if a < -exp(-1):
   print("Error: no se puede calcular la función W de Lambert")
 else:
   w = round(lambert(a), 8)
-  print(w) 
+  print(w)
